@@ -22,3 +22,4 @@ services:
       - "12443:12443" # Expose HTTPS
     depends_on:
       - flask_app
+    restart: always
